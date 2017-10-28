@@ -45,9 +45,9 @@ Ok no problem. It is worth mentioning to go to INSERT mode you simply have to be
 
 `i`
 
-Now I think I should be decently comfertable with VIM. By remembering this I can comfortably use it like any other editor. I guess there is no reason for me to get Nano then.
+Now I think I should be decently comfortable with Vim. By remembering this I can comfortably use it like any other editor. I guess there is no reason for me to get Nano then.
 
-I guess this is better. Then when I feel ready for it I can start looking up how to use VIM properly. Currently I just need an editor. I like Nano because it says what you have to press in order to exit nano and such so there isn't anything to remember. However, I think it is possible to get some help from VIM. Let's try it out.
+I guess this is better. Then when I feel ready for it I can start looking up how to use Vim properly. Currently I just need an editor. I like Nano because it says what you have to press in order to exit nano and such so there isn't anything to remember. However, I think it is possible to get some help from Vim. Let's try it out.
 
 `:help`
 

@@ -4,7 +4,7 @@ I thought that maybe I could use Notepad within the command-line. However writin
 
 `notepad editing_file_from_powershell.md`
 
-is only goind to launch the editor within Windows. Meaning that I will have to look for a command-line based editor similar to nano or vim.
+is only goind to launch the editor within Windows. Meaning that I will have to look for a command-line based editor similar to Nano or Vim.
 
 ## 2017-10-18 13:20
 

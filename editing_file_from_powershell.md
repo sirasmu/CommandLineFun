@@ -1,10 +1,10 @@
 # Logbook for learning to edit files within PowerShell
 
-I thought that maybe I could use Notepad within the command line. However writing:
+I thought that maybe I could use Notepad within the command-line. However writing:
 
 `notepad editing_file_from_powershell.md`
 
-is only goind to launch the editor within Windows. Meaning that I will have to look for a commandline based editor similar to nano or vim.
+is only goind to launch the editor within Windows. Meaning that I will have to look for a command-line based editor similar to nano or vim.
 
 ## 2017-10-18 13:20
 
@@ -45,7 +45,7 @@ Ok no problem. It is worth mentioning to go to INSERT mode you simply have to be
 
 `i`
 
-Now I think I should be decently comfertable with VIM. By remembering this I can confortably use it like any other editor. I guess there is no reason for me to get Nano then.
+Now I think I should be decently comfertable with VIM. By remembering this I can comfortably use it like any other editor. I guess there is no reason for me to get Nano then.
 
 I guess this is better. Then when I feel ready for it I can start looking up how to use VIM properly. Currently I just need an editor. I like Nano because it says what you have to press in order to exit nano and such so there isn't anthing to remember. However, I think it is possible to get some help from VIM. Let's try it out.
 
@@ -55,4 +55,4 @@ This took me to the help.txt file which had some information. I went back to thi
 
 `:q`
 
-So when I opened the file I was apperently in NORMAL mode. I think this concludes this document. Just install VIM and get confortable with it it. Then it is always possible to learn more.
+So when I opened the file I was apperently in NORMAL mode. I think this concludes this document. Just install VIM and get comfortable with it it. Then it is always possible to learn more.

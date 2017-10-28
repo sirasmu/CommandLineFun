@@ -16,7 +16,7 @@ It seems I have found the solution to my troubles. However I don't like the way 
 
 It should also be possible to download something else, but I would prefer to only use what is preinstalled and not get into weird non standard tools
 
-I am currently within nano. I am goint to press 'ctrl+x' to exit the editor now so I can commit my update on CommandLineFun.
+I am currently within Nano. I am goint to press `ctrl+x` to exit the editor now so I can commit my update on CommandLineFun.
 
 ## 2017-10-18 14:11
 

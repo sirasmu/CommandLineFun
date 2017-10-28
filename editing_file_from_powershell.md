@@ -23,7 +23,7 @@ I am currently within Nano. I am goint to press `ctrl+x` to exit the editor now 
 Apperantly this works because I have WSL. If that is the case I would like to look into something different as it would be nicer with a more standard solution for editing files from the terminal.
 
 ## 2017-10-18 14:57
-I just installed VIM. I would prefer to have Nano though because I don't feel confortable with VIM yet. When VIM is installed you can easily open it from command-line. Examples:
+I just installed Vim. I would prefer to have Nano though because I don't feel confortable with Vim yet. When Vim is installed you can easily open it from command-line. Examples:
 
 `vim`
 

@@ -1,5 +1,5 @@
 
-Stage and add or synonyms. They are used for staging what you want to at to the commit:
+Stage and add are synonyms. They are used for staging what you want to at to the commit:
 
 `git stage <file name>`
 

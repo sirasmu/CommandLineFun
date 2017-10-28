@@ -1,4 +1,4 @@
-I thought that maybe I could use Notepad within the command line. However writeing:
+I thought that maybe I could use Notepad within the command line. However writing:
 
 `notepad editing_file_from_powershell.md`
 

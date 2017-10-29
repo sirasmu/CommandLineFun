@@ -26,7 +26,7 @@ Save/write to file and quit: `:wq`
 
 ### Modes
 
-Has several modes. Here is a description of some modes:
+Vim has several modes. Here are some descriptions of the most important modes:
 
 **NORMAL mode** also called command mode. E.g. pressing `dd` will delete an entire line instead of inserting characters.
 

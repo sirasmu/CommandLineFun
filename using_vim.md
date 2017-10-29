@@ -16,11 +16,11 @@ Save: `CTRL+S` (seems to update the file, but I didn't see it mentioned in any V
 
 To quit Vim: `:q`
 
-Force quit without saving `:q!`
+Force quit without saving: `:q!`
 
-Save/write to file `:w`
+Save/write to file: `:w`
 
-Save/write to file and quite `:wq`
+Save/write to file and quite: `:wq`
 
 ## 2017-10-29 16:34
 

@@ -10,7 +10,7 @@ Go to INSERT mode to write text: `i`
 
 Exit INSERT mode to go to NORMAL mode: `CTRL+c` or `ESC`
 
-Save: `CTRL+S` (seems to update the file, but I didn't see it mentioned in any Vim documentation)
+Save: `CTRL+s` (seems to update the file, but I didn't see it mentioned in any Vim documentation)
 
 #### LAST-LINE
 

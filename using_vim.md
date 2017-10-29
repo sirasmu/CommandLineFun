@@ -20,7 +20,7 @@ Force quit without saving: `:q!`
 
 Save/write to file: `:w`
 
-Save/write to file and quite: `:wq`
+Save/write to file and quit: `:wq`
 
 ## 2017-10-29 16:34
 

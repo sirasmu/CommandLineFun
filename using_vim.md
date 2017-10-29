@@ -55,7 +55,7 @@ Copy line to paste buffer and delete it: `dd`
 
 Copy word to paste buffer: `yw`
 
-Copy word to paste buffer: `dw`
+Copy word to paste buffer and delete it: `dw`
 
 Paste: `p`
 

@@ -28,7 +28,7 @@ Save/write to file and quite `:wq`
 
 Has several modes. Apperantly there is a disagreement on how many there actually is. Here is a definition of some modes:
 
-*NORMAL mode* also called command mode. E.g. pressing `dd` will delete an entire line instead of inserting characters.
+*NORMAL mode* also called command mode. E.g. pressing `DD` will delete an entire line instead of inserting characters.
 
 *INSERT mode* ia entered by pressing `I` within NORMAL mode. It is used typing normally. To exit press `ESC` or `CTRL+C`.
 

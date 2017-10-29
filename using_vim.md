@@ -4,11 +4,11 @@
 
 ### Essentials
 
-#### Shortcuts
+#### Keypresses
 
-Go to INSERT mode to write text: `I`
+Go to INSERT mode to write text: `i`
 
-Exit INSERT mode to go to NORMAL mode: `CTRL+C` or `ESC`
+Exit INSERT mode to go to NORMAL mode: `CTRL+c` or `ESC`
 
 Save: `CTRL+S` (seems to update the file, but I didn't see it mentioned in any Vim documentation)
 
@@ -26,14 +26,39 @@ Save/write to file and quite: `:wq`
 
 ### Modes
 
-Has several modes. Apperantly there is a disagreement on how many there actually is. Here is a definition of some modes:
+Has several modes. Here is a description of some modes:
 
-**NORMAL mode** also called command mode. E.g. pressing `DD` will delete an entire line instead of inserting characters.
+**NORMAL mode** also called command mode. E.g. pressing `dd` will delete an entire line instead of inserting characters.
 
-**INSERT mode** ia entered by pressing `I` within NORMAL mode. It is used typing normally. To exit press `ESC` or `CTRL+C`.
+**INSERT mode** ia entered by pressing `i` within NORMAL mode. It is used typing normally. To exit press `ESC` or `CTRL+c`.
 
 **LAST-LINE mode** is entered when you press `:` in NORMAL mode. Now you can type commands for saving, quiting and similar.
 
 
+## 2017-10-29 17:36
 
+### Undo and delete
 
+To undo: `u`
+
+Delete char: `x`
+
+Delete word: `dw`
+
+Delete line: `dd`
+
+### Cut and paste
+
+Copy line to paste buffer: `yy`
+
+Copy line to paste buffer and delete it: `dd`
+
+Copy word to paste buffer: `yw`
+
+Copy word to paste buffer: `dw`
+
+Paste: `p`
+
+### Edit
+
+Replace character: `r<char>` 

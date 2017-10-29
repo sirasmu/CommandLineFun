@@ -28,7 +28,7 @@ Save/write to file and quit: `:wq`
 
 Vim has several modes. Here are some descriptions of the most important modes:
 
-**NORMAL mode** also called command mode. E.g. pressing `dd` will delete an entire line instead of inserting characters.
+**NORMAL mode** also called command mode. E.g. pressing `dd` will delete an entire line instead of inserting the characters "dd".
 
 **INSERT mode** ia entered by pressing `i` within NORMAL mode. It is used typing normally. To exit press `ESC` or `CTRL+c`.
 

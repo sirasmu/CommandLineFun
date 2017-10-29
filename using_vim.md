@@ -62,5 +62,3 @@ Paste: `p`
 ### Edit
 
 Replace character: `r<char>` 
-
-https://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses#5400978

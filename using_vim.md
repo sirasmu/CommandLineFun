@@ -41,7 +41,7 @@ Has several modes. Here is a description of some modes:
 
 To undo: `u`
 
-Delete char: `x`
+Delete character: `x`
 
 Delete word: `dw`
 

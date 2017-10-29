@@ -47,7 +47,7 @@ Delete word: `dw`
 
 Delete line: `dd`
 
-### Cut and paste
+### Pasting
 
 Copy line to paste buffer: `yy`
 

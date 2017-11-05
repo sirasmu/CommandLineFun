@@ -62,3 +62,15 @@ Paste: `p`
 ### Edit
 
 Replace character: `r<char>` 
+
+## 2017-11-05 20:16
+
+In order to change your settings go to the vimrc file. You can do that from within Vim by using last-line.
+
+Edit vimrc file: `:e $MYVIMRC`
+
+Now you might be into tabs or spaces. I prefer 4 spaces, but my Vim currently uses a tab that is first of all is super annoying because tab characters are basically one character that looks like 8 spaces. To change tabs to spaces you can edit the vimrc file. ?????
+
+Or just write in last-line: `:set tabstop=4`
+
+

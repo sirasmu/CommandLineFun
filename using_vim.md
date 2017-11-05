@@ -71,6 +71,6 @@ Edit vimrc file: `:e $MYVIMRC`
 
 Now you might be into tabs or spaces. I prefer 4 spaces, but my Vim currently uses a tab that is first of all is super annoying because tab characters are basically one character that looks like 8 spaces. To change tabs to spaces you can edit the vimrc file. ?????
 
-Or just write in last-line: `:set tabstop=4`
+Or just write in last-line: `:set tabstop=4` http://vim.wikia.com/wiki/Converting_tabs_to_spaces
 
 

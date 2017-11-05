@@ -63,6 +63,8 @@ Paste: `p`
 
 Replace character: `r<char>` 
 
+Go to REPLACE mode: `R`
+
 ## 2017-11-05 20:16
 
 In order to change your settings go to the vimrc file. You can do that from within Vim by using last-line.

@@ -141,7 +141,7 @@ Mercural, Subversion and some others... Version control has been around since th
 	* Tagging? With releases... v0.0.1
 	* In readme... Build passed mark... Test coverage
 
-## Tired notes
+#### Tired notes
 commit -am //all message
 git tag -a v0.2.4
 

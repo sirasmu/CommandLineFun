@@ -74,3 +74,24 @@ Edit vimrc file: `:e $MYVIMRC`
 Now you might be into tabs or spaces. I prefer 4 spaces, but my Vim currently uses a tab. In my opinion that is super annoying because tab characters are basically one character that looks like 8 spaces. To change tabs to spaces you can edit the vimrc file. 
 
 Add the following line at the end of the vimrc file: `set expandtab ts=4 sw=4 ai`
+
+## 2017-11-15 15:49
+
+### Advanced inserting
+
+Insert at current position: `i`
+
+Insert at start of line: `I`
+
+Insert/append just after the current cursor position: `a`
+
+Insert/append at end of line: `A`
+
+Insert and create a new line after current line: `o`
+
+Insert and create a new line before current line: `O`
+
+
+
+
+

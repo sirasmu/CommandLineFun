@@ -49,11 +49,11 @@ Delete line: `dd`
 
 ### Pasting
 
-Copy line to paste buffer: `yy`
+Copy/yank line to paste buffer: `yy`
 
 Copy line to paste buffer and delete it: `dd`
 
-Copy word to paste buffer: `yw`
+Copy/yank word to paste buffer: `yw`
 
 Copy word to paste buffer and delete it: `dw`
 
@@ -95,5 +95,9 @@ Insert and create a new line before current line: `O`
 
 Delete x amount of the next lines: `d<number>d`
 
+Split windows `CTRL+ws`
 
+Split windows `CTRL+wv` - Split windows vertically
+
+Switch between windows `CTRL+ww`
 

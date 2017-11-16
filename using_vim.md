@@ -95,11 +95,11 @@ Insert and create a new line before current line: `O`
 
 Delete x amount of the next lines: `d<number>d`
 
-Split windows `CTRL+ws`
+Split windows: `CTRL+ws`
 
-Split windows vertically `CTRL+wv`
+Split windows vertically: `CTRL+wv`
 
-Switch between windows `CTRL+ww`
+Switch between windows: `CTRL+ww`
 
 ## 2017-11-16 21:51
 

@@ -103,7 +103,7 @@ Switch between windows: `CTRL+ww`
 
 ## 2017-11-16 21:51
 
-Edit/open a file: `: edit <file path>`
+Edit/open a file: `:edit <file path>`
 
 Go to start of next word: `w`
  

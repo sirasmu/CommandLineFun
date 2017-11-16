@@ -101,3 +101,14 @@ Split windows vertically `CTRL+wv`
 
 Switch between windows `CTRL+ww`
 
+## 2017-11-16 21:51
+
+Edit/open a file: `: edit <file path>`
+
+Go to start of next word: `w`
+ 
+Go to ending of next word: `e`
+
+Go to back to start of word: `b`
+
+Paste x amount of times `<number>p`

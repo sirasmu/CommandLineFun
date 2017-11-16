@@ -97,7 +97,7 @@ Delete x amount of the next lines: `d<number>d`
 
 Split windows `CTRL+ws`
 
-Split windows `CTRL+wv` - Split windows vertically
+Split windows vertically `CTRL+wv`
 
 Switch between windows `CTRL+ww`
 

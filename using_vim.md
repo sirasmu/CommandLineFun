@@ -111,4 +111,4 @@ Go to ending of next word: `e`
 
 Go to back to start of word: `b`
 
-Paste x amount of times `<number>p`
+Paste x amount of times: `<number>p`

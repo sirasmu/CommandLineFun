@@ -8,9 +8,9 @@
 
 Go to INSERT mode to write text: `i`
 
-Exit INSERT mode to go to NORMAL mode: `CTRL+c` or `ESC`
+Exit INSERT mode to go to NORMAL mode: `Ctrl+c` or `Esc`
 
-Save: `CTRL+s`
+Save: `Ctrl+s`
 
 #### LAST-LINE
 
@@ -30,7 +30,7 @@ Vim has several modes. Here are some descriptions of the most important modes:
 
 **NORMAL mode** also called command mode. E.g. pressing `dd` will delete an entire line instead of inserting the characters "dd".
 
-**INSERT mode** is entered by pressing `i` within NORMAL mode. It is used for typing normally. To exit press `ESC` or `CTRL+c`.
+**INSERT mode** is entered by pressing `i` within NORMAL mode. It is used for typing normally. To exit press `Esc` or `Ctrl+c`.
 
 **LAST-LINE mode** is entered when you press `:` in NORMAL mode. Now you can type commands for saving, quiting and similar.
 
@@ -95,11 +95,11 @@ Insert and create a new line before current line: `O`
 
 Delete x amount of the next lines: `d<number>d`
 
-Split windows `CTRL+ws`
+Split windows `Ctrl+ws`
 
-Split windows vertically `CTRL+wv`
+Split windows vertically `Ctrl+wv`
 
-Switch between windows `CTRL+ww`
+Switch between windows `Ctrl+ww`
 
 ## 2017-11-16 21:51
 
@@ -112,3 +112,29 @@ Go to ending of next word: `e`
 Go to back to start of word: `b`
 
 Paste x amount of times `<number>p`
+
+## 2017-11-17 19:06
+
+Go to first line of file: `gg`
+
+Go to last line of file: `G`
+
+Go to start of line: `0` or `Home`
+
+Go to end of line: `$` or `End`
+
+Go to line x: `<number>G` or `:<number>`
+
+Go to very end of file: `:$`
+
+Delete the rest of the line and go into INSERT mode: `C`
+
+Select/search all instances of word: `*`
+
+Replace word that has been selected by `*`: `:%s//replacement/g` 
+
+Search for: `/<search string>` or `?<search string>`
+
+Go to next result of search: `n`
+
+No highlighting of what you searched: `:noh`

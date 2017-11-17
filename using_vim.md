@@ -1,4 +1,4 @@
-﻿# Logbook for learning to use Vim
+# Logbook for learning to use Vim
 
 ## 2017-10-29 12:20 
 
@@ -103,7 +103,7 @@ Switch between windows `Ctrl+ww`
 
 ## 2017-11-16 21:51
 
-Edit/open a file: `: edit <file path>`
+Edit/open a file: `:edit <file path>`
 
 Go to start of next word: `w`
  
@@ -111,7 +111,7 @@ Go to ending of next word: `e`
 
 Go to back to start of word: `b`
 
-Paste x amount of times `<number>p`
+Paste x amount of times: `<number>p`
 
 ## 2017-11-17 19:06
 

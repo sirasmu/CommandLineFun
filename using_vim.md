@@ -141,4 +141,4 @@ No highlighting of what you searched: `:noh`
 
 Indent: `>>`
 
-Remove indent: `<<`
+Unindent: `<<`

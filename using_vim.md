@@ -93,7 +93,7 @@ Insert and create a new line before current line: `O`
 
 ## 2017-11-16 18:29
 
-Delete x amount of the next lines: `d<number>d`
+Delete x amount of the next lines: `d<number>d``<number>dd`
 
 Split windows `Ctrl+ws`
 
@@ -138,3 +138,7 @@ Search for: `/<search string>` or `?<search string>`
 Go to next result of search: `n`
 
 No highlighting of what you searched: `:noh`
+
+Indent: `>>`
+
+Remove indent: `<<`

@@ -133,7 +133,9 @@ Select/search all instances of word: `*`
 
 Replace word that has been selected by `*`: `:%s//replacement/g` 
 
-Search for: `/<search string>` or `?<search string>`
+Search forwards: `/<search string>`
+
+Search backwards: `?<search string>`
 
 Go to next result of search: `n`
 
@@ -147,4 +149,4 @@ Unindent: `<<`
 
 If you are using gVim for whatever reason you might be bothered by the light theme. Inside Edit you can find the different themes. However you might notice the next time you open gVim it will not start in the theme you left gVim in the last time. To have gVim always start up in the same theme you can edit the `_vimrc` file. Simply add `colorscheme <name of scheme>` to the end of the `_vimrc` file. E.g. `colorscheme koehler`. 
 
-I personally dislike gVim and I have only used it on my laptop running Windows 7. This was because I found the window size of the command prompt and PowerShell absolutely terrible. I also wondered what the idea of gVim was. The first time I ever used Vim I used gVim. It left me confused and it took me almost 2 years before I picked up Vim again. The reason I started using Vim again was because I wanted a terminal based editor. With this I of course understand there will be little to no usage of the cursor. However in gVim it is not apparent that Vim is great because you DO NOT have to use a mouse. I find gVim really odd because it gives you the impression that you can use it like an ordinary editor and this makes it easy to make the whole idea of Vim to fly right over your head. I personally prefer to use Vim in PowerShell, within Ubunto WSL or just within Linux.
+I personally dislike gVim and I have only used it on my laptop running Windows 7. This was because I found the window size of the command prompt and PowerShell absolutely terrible. I also wondered what the idea of gVim was. The first time I ever used Vim I used gVim. It left me confused and it took me almost 2 years before I picked up Vim again. The reason I started using Vim again was because I wanted a terminal based editor. With this I of course understand there will be little to no usage of the cursor. However in gVim it is not apparent that Vim is great because you DO NOT have to use a mouse. I find gVim really odd because it gives you the impression that you can use it like an ordinary editor and this makes it easy to make the whole idea of Vim to fly right over your head. I personally prefer to use Vim in PowerShell, within Ubunto WSL or just within Linux. However, I am considering installing Vim maybe in VisualCode

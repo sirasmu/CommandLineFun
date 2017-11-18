@@ -93,7 +93,7 @@ Insert and create a new line before current line: `O`
 
 ## 2017-11-16 18:29
 
-Delete x amount of the next lines: `d<number>d``<number>dd`
+Delete x amount of the next lines: `d<number>d` or `<number>dd`
 
 Split windows `Ctrl+ws`
 
@@ -141,9 +141,9 @@ No highlighting of what you searched: `:noh`
 
 Indent: `>>`
 
-Remove indent: `<<`
+Unindent: `<<`
 
-## 2017-11-18
+## 2017-11-18 19:11
 
 If you are using gVim for whatever reason you might be bothered by the light theme. Inside Edit you can find the different themes. However you might notice the next time you open gVim it will not start in the theme you left gVim in the last time. To have gVim always start up in the same theme you can edit the `_vimrc` file. Simply add `colorscheme <name of scheme>` to the end of the `_vimrc` file. E.g. `colorscheme koehler`. 
 

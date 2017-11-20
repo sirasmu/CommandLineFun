@@ -45,8 +45,7 @@ Mercural, Subversion and some others... Version control has been around since th
 	* Branch.... Collaborator....
 
 - origin is the name of the remote
-- clear command???
-- show git history on the commandline???
+- show git history on the commandline
 	* git log
 - git status
 	* what's going on
@@ -56,7 +55,8 @@ Mercural, Subversion and some others... Version control has been around since th
 
 - clear command to clear everything on your commandline :D
 
-- git commit -m // m means message
+- git commit -m "" 
+	* -m means message
 
 - Always pull before you push! :D
 

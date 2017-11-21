@@ -151,7 +151,7 @@ If you are using gVim for whatever reason you might be bothered by the light the
 
 I personally dislike gVim and I have only used it on my laptop running Windows 7. This was because I found the window size of the command prompt and PowerShell absolutely terrible. I also wondered what the idea of gVim was. The first time I ever used Vim I used gVim. It left me confused and it took me almost 2 years before I picked up Vim again. The reason I started using Vim again was because I wanted a terminal based editor. With this I of course understand there will be little to no usage of the cursor. However in gVim it is not apparent that Vim is great because you DO NOT have to use a mouse. I find gVim really odd because it gives you the impression that you can use it like an ordinary editor and this makes it easy to make the whole idea of Vim to fly right over your head. I personally prefer to use Vim in PowerShell, within Ubunto WSL or just within Linux. 
 
-## 2017-11-18 21:57
+## 2017-11-20 21:57
 
 Colorschemes to check out:
 
@@ -169,3 +169,7 @@ Words from my friend:
 colors/ is for new colorschemes
 
 just drop a colorscheme.vim file in there"
+
+## 2017-11-21 16:50
+
+I decided I don't care for gVim at all. However it would still be nice to have themes. Within Windows 7 it is possible to change the set size of terminal window when running Vim. It is not elegant, but I think I still prefer that over using the Vim GUI. I use Windows 10 most of the time though so it is not really an issue. However, then comes the question of changing colorscheme. Within the terminal window you have 16 different colors. These can be seen when you acces properties of the terminal windows (right click the bar on top of the window). changing the colors for Vim here will of course also effect the colors displayed within Command Prompt or PowerShell when you access it normally. Therefore be sure that you choose a general theme you like to be used when you access the terminal. Within Vim you can write `:highlight` to see which of the different 16 colors are used for what. Within your `_vimrc` file you can change which colors are used when. You simply do thise by assigning the highlight of the text to the number of the color you would like it to use. I will write more on how I did that myself later. I like the default colorscheme of WSL Ubuntu, but I really dislike the one for PowerShell. I have usually just changed my background color to something dark and the text to green, but I started to try out something different as I did not really like the highlighting of my code within Vim.

@@ -14,6 +14,11 @@ Stage and add are synonyms. They are used for staging what you want to add to th
 
 `git add *` (add all)
 
+### Branches
+
+git clone -b <branch name> <repository url>
+
+
 https://git-scm.com/docs/git-stage
 
 ## Git presentation notes

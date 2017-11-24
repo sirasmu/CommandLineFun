@@ -14,6 +14,12 @@ Stage and add are synonyms. They are used for staging what you want to add to th
 
 `git add *` (add all)
 
+### Stashing
+
+`git stash`
+
+`git stash pop`
+
 ### Branches
 
 `git clone -b <branch name> <repository url>`

@@ -174,7 +174,15 @@ just drop a colorscheme.vim file in there"
 
 I decided I do not care for gVim at all. However it would still be nice to have themes. Within Windows 7 it is possible to change the set size of terminal window when running Vim. It is not elegant, but I think I still prefer that over using the Vim GUI. I use Windows 10 most of the time though so it is not really an issue. However, then comes the question of changing colorscheme. Within the terminal window you have 16 different colors. These can be seen when you acces properties of the terminal windows (right click the bar on top of the window). changing the colors for Vim here will of course also effect the colors displayed within Command Prompt or PowerShell when you access it normally. Therefore be sure that you choose a general theme you like to be used when you access the terminal. Within Vim you can write `:highlight` to see which of the different 16 colors are used for what. Within your `_vimrc` file you can change which colors are used when. You simply do this by assigning the highlight of the text to the number of the color you would like it to use. I will write more on how I did that myself later. I like the default colorscheme of WSL Ubuntu, but I really dislike the one for PowerShell. I have usually just changed my background color to something dark and the text to green, but I started to try out something different as I did not really like the highlighting of my code within Vim.
 
-##
+## 2017-11-25 18:42
+
+### Interesting links to learn more about Vim
+
+http://codenhance.com/2015/10/07/getting-started-with-vim-golf.html
+
+https://danielmiessler.com/study/vim/
+
+## vimrc
 
 " This is for changing the layout of my code
 set expandtab ts=4 sw=4 ai

@@ -185,9 +185,15 @@ https://danielmiessler.com/study/vim/
 ## vimrc
 
 " This is for changing the layout of my code
+
 set expandtab ts=4 sw=4 ai
+
 set number
+
 highlight LineNr ctermfg=8
+
 highlight MarkdownCode ctermfg=13
+
 highlight Comment ctermfg=8
+
 highlight Normal ctermfg=7

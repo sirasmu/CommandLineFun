@@ -176,11 +176,13 @@ I decided I do not care for gVim at all. However it would still be nice to have 
 
 ## 2017-11-25 18:42
 
-### Interesting links to learn more about Vim
+### Learning resources
 
 http://codenhance.com/2015/10/07/getting-started-with-vim-golf.html
 
 https://danielmiessler.com/study/vim/
+
+And then of course there is Vimtutor. Go through the exercises in there!
 
 ## vimrc
 

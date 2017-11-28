@@ -191,7 +191,9 @@ And then of course there is Vimtutor. Go through the exercises in there!
 
 You need to be able to see the line numbers. If these are not visible use: `:set number`
 
-Now you can see the line numbers and there might be a certain section you wish to move. To delete and copy these line: `:<start line>,<end line>d`
+Now you can see the line numbers and there might be a certain section you wish to move. 
+
+To delete and copy lines: `:<start line>,<end line>d`
 
 Now simply navigate to where you desire to lave these lines instead and paste: `p`
 

@@ -216,7 +216,7 @@ I decided to try out Neovim. It seems nice so far. The first thing I did was to 
 
 Source: https://neovim.io/doc/user/provider.html#provider-clipboard
 
-Upon using `:set clipboard+=unnamedplus` I found that I could seemlessly copy/paste between the system and Neovim. E.g. using `Ctrl+c` in the system and the using `p` within Neovim.
+Upon using `:set clipboard+=unnamedplus` I found that I could seemlessly copy/paste between the system and Neovim. E.g. using `Ctrl+c` in the system and then using `p` within Neovim.
 
 ## vimrc
 

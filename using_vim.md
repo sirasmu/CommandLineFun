@@ -218,6 +218,12 @@ Source: https://neovim.io/doc/user/provider.html#provider-clipboard
 
 Upon using `:set clipboard+=unnamedplus` I found that I could seemlessly copy/paste between the system and Neovim. E.g. using `Ctrl+c` in the system and then using `p` within Neovim.
 
+Then I also wanted a shortcut for opening my files with Neovim. I followed this guide:
+
+https://www.howtogeek.com/howto/windows-vista/add-open-with-notepad-to-the-context-menu-for-all-files/
+
+However the value I wrote was `"C:\Users\T420s\Downloads\nvim-win64\Neovim\bin\nvim-qt.exe" "%1"` instead. I did this because I saw that was how it was already done for VSCode and Atom that I have installed, so I thought this must be the right way to do it.
+
 ## vimrc
 
 " This is for changing the layout of my code

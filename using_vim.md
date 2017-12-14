@@ -203,15 +203,15 @@ Now simply navigate to where you desire to lave these lines instead and paste: `
 
 I decided to try out Neovim. It seems nice so far. The first thing I did was to set up the clipboard. I found the following documentation:
 
- Clipboard integration 			      *provider-clipboard* *clipboard*
- 
- Nvim has no direct connection to the system clipboard. Instead it depends on
- a |provider| which transparently uses shell commands to communicate with the
- system clipboard or any other clipboard "backend".
- 
- To ALWAYS use the clipboard for ALL operations (instead of interacting with
- the '+' and/or '*' registers explicitly):
- 
+  Clipboard integration 			      *provider-clipboard* *clipboard*
+  
+  Nvim has no direct connection to the system clipboard. Instead it depends on
+  a |provider| which transparently uses shell commands to communicate with the
+  system clipboard or any other clipboard "backend".
+  
+  To ALWAYS use the clipboard for ALL operations (instead of interacting with
+  the '+' and/or '*' registers explicitly):
+  
      set clipboard+=unnamedplus
 
 Source: https://neovim.io/doc/user/provider.html#provider-clipboard

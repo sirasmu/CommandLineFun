@@ -224,6 +224,28 @@ https://www.howtogeek.com/howto/windows-vista/add-open-with-notepad-to-the-conte
 
 However the value I wrote was `"C:\Users\T420s\Downloads\nvim-win64\Neovim\bin\nvim-qt.exe" "%1"` instead. I did this because I saw that was how it was already done for VSCode and Atom that I have installed, so I thought this must be the right way to do it.
 
+## 2017-12-15 10:52
+
+### Installing Chocolatey (or choco for short)
+
+1. Open PowerShell as an Admin
+2. Run the following command: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+Now choco should be installed and ready for use.
+
+Source: https://chocolatey.org/install#install-with-powershellexe
+
+### Installing Neovim from the commandline
+
+1. Open PowerShell as an Admin
+2. Run the following command: `choco install neovim`
+3. Accept installing the scripts. You might have write `y` into the commandline quite a few times
+
+
+### Add to Path
+
+1. Go to your Neovim path folder. It might be located here: `C:\tools\neovim\Neovim\bin`
+
 ## vimrc
 
 " This is for changing the layout of my code

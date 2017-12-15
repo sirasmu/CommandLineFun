@@ -101,7 +101,7 @@ Split windows vertically `Ctrl+wv`
 
 Switch between windows `Ctrl+ww`
 
-Quit window `Ctrl+wq`
+Quit window `Ctrl+wq`(Can also be used to go back to the commandline)
 
 
 ## 2017-11-16 21:51

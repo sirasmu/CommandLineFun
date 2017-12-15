@@ -101,6 +101,9 @@ Split windows vertically `Ctrl+wv`
 
 Switch between windows `Ctrl+ww`
 
+Quit window `Ctrl+wq`
+
+
 ## 2017-11-16 21:51
 
 Edit/open a file: `:edit <file path>`

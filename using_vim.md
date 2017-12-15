@@ -232,12 +232,13 @@ However the value I wrote was `"C:\Users\T420s\Downloads\nvim-win64\Neovim\bin\n
 ### Installing Chocolatey (or choco for short)
 
 > Chocolatey is a package manager for Windows (like apt-get or yum but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. It is built on the NuGet infrastructure currently using PowerShell as its focus for delivering packages from the distros to your door, err computer.
-> 1. Open PowerShell as an Admin
-> 2. Run the following command: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+Source: https://chocolatey.org/
+
+1. Open PowerShell as an Admin
+2. Run the following command: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
 Now choco should be installed and ready for use.
-
-Source: https://chocolatey.org/install#install-with-powershellexe
 
 ### Installing Neovim from the commandline
 

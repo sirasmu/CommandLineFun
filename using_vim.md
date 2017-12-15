@@ -228,6 +228,8 @@ However the value I wrote was `"C:\Users\T420s\Downloads\nvim-win64\Neovim\bin\n
 
 ### Installing Chocolatey (or choco for short)
 
+(For Windows PowerShell)
+
 1. Open PowerShell as an Admin
 2. Run the following command: `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
@@ -242,9 +244,18 @@ Source: https://chocolatey.org/install#install-with-powershellexe
 3. Accept installing the scripts. You might have write `y` into the commandline quite a few times
 
 
-### Add to Path
+### Add to Path from Advanced system settings
+
+This is so you can open Neovim from the commandline.
 
 1. Go to your Neovim path folder. It might be located here: `C:\tools\neovim\Neovim\bin`
+2. Follow this guide to add variable: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
+3. Use the path of the bin folder
+4. You can now open `nvim` and `nvim-qt` from the commandline
+
+### Add to Path from Power DEEEEEEEERP NOPE DIDN'T WORK
+2. Open PowerShell as an Admin
+3. Run the command `setx PATH "$env:path;C:\tools\neovim\Neovim\bin" -m` // this doesn't work rewrite
 
 ## vimrc
 

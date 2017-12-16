@@ -260,6 +260,19 @@ This is so you can open Neovim from the commandline.
 2. Open PowerShell as an Admin
 3. Run the command `setx PATH "$env:path;C:\tools\neovim\Neovim\bin" -m` // this doesn't work rewrite
 
+## 2017-12-16 10:50
+
+### Use Chocolatey indirectly with PackageManager
+
+Instead of directly using the Chocolatey packagemanger the PackageManager (aka OneGet) can be used. PackageManager Is more of a package manager manager. So it can manage Chocolatey for example.
+
+1. Run PowerShell as an Admin
+2. `Register-PackageSource -Name chocolatey -Location http://chocolatey.org/api/v2 -Provider NuGet -Trusted -Verbose`
+3. Maybe take a look at https://chocolatey.org/packages. Neovim is there. Or look whether it is there with `Find-Package -Name Neovim`
+4. `Install-Package -Name Neovim` // Does not work
+
+PackageManagement documentation can be found here: https://docs.microsoft.com/da-dk/powershell/module/packagemanagement/?view=powershell-5.1
+
 ## vimrc
 
 " This is for changing the layout of my code

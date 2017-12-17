@@ -273,6 +273,18 @@ Instead of directly using the Chocolatey packagemanger the PackageManager (aka O
 
 PackageManagement documentation can be found here: https://docs.microsoft.com/da-dk/powershell/module/packagemanagement/?view=powershell-5.1
 
+## 2017-12-17 21:33
+
+Pasting into LAST-LINE: `Ctrl+r` and then `"`
+
+## Calculations in Vim
+
+1. Go to INSERT mode
+2. `Ctrl+r`
+3. `=<calculation>` e.g. `=2+2`
+4. `Enter`
+5. The result will be inserted into the document
+
 ## vimrc
 
 " This is for changing the layout of my code

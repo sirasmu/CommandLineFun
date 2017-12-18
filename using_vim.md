@@ -185,6 +185,8 @@ http://codenhance.com/2015/10/07/getting-started-with-vim-golf.html
 
 https://danielmiessler.com/study/vim/
 
+https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
+
 And then of course there is Vimtutor. Go through the exercises in there!
 
 
@@ -276,6 +278,16 @@ PackageManagement documentation can be found here: https://docs.microsoft.com/da
 ## 2017-12-17 21:33
 
 Pasting into LAST-LINE: `Ctrl+r` and then `"`
+
+Spellchecker: `:set spell` https://vimtricks.com/essentials/2017/05/26/spell-check-my-content/
+
+## Time travel
+
+Go back to how the document was before: `:earlier <number><s/m/h/d>` e.g. `:earlier 10m`
+
+Revert earlier changes: `:later <number><s/m/h/d>` e.g. `:later 10m` 
+
+https://vimtricks.com/essentials/2017/06/06/revert-to-an-earlier-version/
 
 ## Calculations in Vim
 

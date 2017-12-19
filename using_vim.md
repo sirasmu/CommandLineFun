@@ -305,6 +305,10 @@ Open terminal in nvim: `:te` or `:terminal`
 
 Close terminal process: Write `exit` as the command for the terminal and then press any key to return to nvim
 
+### VS Code Vim
+
+I am also converting to use Vim by *vscodevim* within VS Code. I am pretty happe with it so far, but the emulator seems to be lacking some functionality, which is rather annoying as I have to figure out the VS Code way of doing it. I am unhappy with that I have to press `Ctrl+æ` within VS Code to open the terminal. This can't possibly be a standardized way of doing it and must be because I use Danish keyboard. I wouldn't mind if I could just use `:te` to launch the terminal, but the emulator does not provide me with this functionality. 
+
 ## vimrc
 
 " This is for changing the layout of my code

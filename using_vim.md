@@ -279,7 +279,7 @@ Pasting into LAST-LINE: `Ctrl+r` and then `"`
 
 Spellchecker: `:set spell` https://vimtricks.com/essentials/2017/05/26/spell-check-my-content/
 
-## Time travel
+### Time travel
 
 Go back to how the document was before: `:earlier <number><s/m/h/d>` e.g. `:earlier 10m`
 
@@ -287,7 +287,7 @@ Revert earlier changes: `:later <number><s/m/h/d>` e.g. `:later 10m`
 
 https://vimtricks.com/essentials/2017/06/06/revert-to-an-earlier-version/
 
-## Calculations in Vim
+### Calculations in Vim
 
 1. Go to INSERT mode
 2. `Ctrl+r`

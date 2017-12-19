@@ -297,6 +297,16 @@ https://vimtricks.com/essentials/2017/06/06/revert-to-an-earlier-version/
 4. `Enter`
 5. The result will be inserted into the document
 
+## 2017-12-19 11:47
+
+### Neovim terminal
+
+Set the shell to powershell: `:set shell=powershell`
+
+Open terminal in nvim: `:te` or `:terminal`
+
+Close terminal process: Write `exit` as the command for the terminal and then press any key to return to nvim
+
 ## vimrc
 
 " This is for changing the layout of my code

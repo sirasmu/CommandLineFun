@@ -185,8 +185,6 @@ http://codenhance.com/2015/10/07/getting-started-with-vim-golf.html
 
 https://danielmiessler.com/study/vim/
 
-https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
-
 And then of course there is Vimtutor. Go through the exercises in there!
 
 

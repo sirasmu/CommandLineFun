@@ -8,7 +8,7 @@ A new adventure begins. Let me summarize what I am doing and where I currently a
 	* I installed Raspian Lite on it
 		* This seems to be distribution you want if you do not care for a GUI
 	* I installed Lynx on it and set it the to use Vi keybindings
-		* It is nice to a browser than enables me to stay in the same environment
+		* It is nice to have a browser than enables me to stay in the same environment
 	* I installed Git so I can easily update my files from the Pi
 		* E.g. using it for creating and committing this file
 	* I Installed Nvim

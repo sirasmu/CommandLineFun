@@ -17,7 +17,7 @@ A new adventure begins. Let me summarize what I am doing and where I currently a
 I wanted to have a split screen and being apple to switch between multiple terminals. These are my findings:
 
 * Opening/switching to another terminal instance
-	* Press `Alt+F<num>`. You should already have a terminal open at `Alt-F1`
+	* Press `Alt+F<num>`. There should already have a terminal open at `Alt-F1`
 * Go to Nvim and use the split window functionality there
 	* Use `Ctrl+w v` or `Ctrl+w s` for opening windows, `Ctrl+w q` for closing windows and `Ctrl+w w` for switching between windows 
 	* Use `:te` to open a terminal within Nvim and `Ctrl+\ Ctrl+N` to exit terminal-mode and `i` to enter terminal-mode again

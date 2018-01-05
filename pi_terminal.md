@@ -10,7 +10,7 @@ A new adventure begins. Let me summarize what I am doing and where I currently a
 	* I installed Lynx on it and set it the to use Vi keybindings
 		* It is nice to have a browser than enables me to stay in the same environment
 	* I installed Git so I can easily update my files from the Pi
-		* E.g. using it for creating and committing this file
+		* E.g. using it for committing this file
 	* I Installed Nvim
 		* Nvim is the future! I want to use this modern continuation of Vi
 
@@ -33,4 +33,4 @@ Today I want to learn tmux.
 	* Type `tmux`to enter and `exit` within tmux to return the ordinary terminal
 	* When you are within tmux it is just like in the terminal, except you will now notice the line at the button that might say something like `[0] 0:bash*`
 	* `Ctrl+b` is as a prefix for tmux commands
-	* `Ctrl+b d` means that you will detach tmux - This might be a better way to exit tmux because it does not close the session and you might be able to return to work you left  
+	* `Ctrl+b d` means that you will detach tmux - This might be a better way to exit tmux because it does not close the session and you might be able to return to the work you left  

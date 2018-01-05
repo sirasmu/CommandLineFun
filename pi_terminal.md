@@ -33,4 +33,4 @@ Today I want to learn tmux.
 	* Type `tmux`to enter and `exit` within tmux to return the ordinary terminal
 	* When you are within tmux it is just like in the terminal, except you will now notice the line at the button that might say something like `[0] 0:bash*`
 	* `Ctrl+b` is as a prefix for tmux commands
-	* `Ctrl+b d` means that you will detach tmux - This might be a better way to exit tmux because it does not close the session and you might be able to return to work you left  
+	* `Ctrl+b d` means that you will detach tmux - This might be a better way to exit tmux because it does not close the session and you might be able to return to the work you left  

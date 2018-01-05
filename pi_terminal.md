@@ -10,7 +10,7 @@ A new adventure begins. Let me summarize what I am doing and where I currently a
 	* I installed Lynx on it and set it the to use Vi keybindings
 		* It is nice to have a browser than enables me to stay in the same environment
 	* I installed Git so I can easily update my files from the Pi
-		* E.g. using it for creating and committing this file
+		* E.g. using it for committing this file
 	* I Installed Nvim
 		* Nvim is the future! I want to use this modern continuation of Vi
 

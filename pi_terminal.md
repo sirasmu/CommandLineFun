@@ -25,3 +25,12 @@ I wanted to have a split screen and being apple to switch between multiple termi
 Now I didn't get right down to documenting when I set up my Pi, but I remember that there was an issue with displaying on my screen through the display port. I think this was solved by unplugging the power supply and connecting it again. So first connect the SD card (with the desired distribution) and the HDMI cable. After that connect the Pi to power and you will now see the setup screen.
 
 
+# Log 2018-01-05
+
+Today I want to learn tmux.
+
+* Basics
+	* Type `tmux`to enter and `exit` within tmux to return the ordinary terminal
+	* When you are within tmux it is just like in the terminal, except you will now notice the line at the button that might say something like `[0] 0:bash*`
+	* `Ctrl+b` is as a prefix for tmux commands
+	* `Ctrl+b d` means that you will detach tmux - This might be a better way to exit tmux because it does not close the session and you might be able to return to work you left  

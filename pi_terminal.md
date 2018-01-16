@@ -47,7 +47,7 @@ SHH is by default disabled for the Raspberry Pi. Therefore you need the enable i
 	
 Use the arrow keys to navigate within the configuration tool. Navigate to `Interfacing Options` and press `Enter`.
 
-Now navigate to `SHH` and press `Enter`. You will now be asked `Would you like the SSH server to be enabled?`. Navigate to `<Yes>` and press `Enter`. You will now be informed that it has been enabled. Press `Enter` to return to the menu. Within the Configutsyion Tool menu simply press `Esc` to exit and return to the terminal.
+Now navigate to `SHH` and press `Enter`. You will now be asked `Would you like the SSH server to be enabled?`. Navigate to `<Yes>` and press `Enter`. You will now be informed that it has been enabled. Press `Enter` to return to the menu. Within the Configuration Tool menu simply press `Esc` to exit and return to the terminal.
 
 The default login credentials of the Raspberry Pi is:
 

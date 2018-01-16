@@ -39,7 +39,7 @@ Today I want to learn tmux.
 
 To set up the Raspberry Pi for SHH you have to go through a few steps.
 
-1) Enable SHH on the Pi
+### Enable SHH on the Pi
 
 SHH is by default disabled for the Raspberry Pi. Therefore you need the enable it. Use the following command to access the configuration of the Pi:
 
@@ -70,8 +70,8 @@ To logout from root simply write:
 
 	exit	
 
-2) SHH into the system from your preferred computer
+### SHH into the system from your preferred computer
 
 ## GPIO
 
-Today I tried to use the genenral purpose input/output for the Raspberry Pi. I did so my installing 
+Today I tried to use the genenral purpose input/output for the Raspberry Pi. I did so by installing 

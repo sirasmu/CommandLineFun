@@ -1,7 +1,5 @@
 # Log 2018-01-04
 
-Ahoy!
-
 A new adventure begins. Let me summarize what I am doing and where I currently am in my learning process:
 
 * I have aquired a Raspberry Pi Zero W
@@ -34,3 +32,46 @@ Today I want to learn tmux.
 	* When you are within tmux it is just like in the terminal, except you will now notice the line at the button that might say something like `[0] 0:bash*`
 	* `Ctrl+b` is as a prefix for tmux commands
 	* `Ctrl+b d` means that you will detach tmux - This might be a better way to exit tmux because it does not close the session and you might be able to return to the work you left  
+	
+# Log 2018-01-16
+
+## SHH
+
+To set up the Raspberry Pi for SHH you have to go through a few steps.
+
+1) Enable SHH on the Pi
+
+SHH is by default disabled for the Raspberry Pi. Therefore you need the enable it. Use the following command to access the configuration of the Pi:
+
+	sudo raspi-config
+	
+Use the arrow keys to navigate within the configuration tool. Navigate to `Interfacing Options` and press `Enter`.
+
+Now navigate to `SHH` and press `Enter`. You will now be asked `Would you like the SSH server to be enabled?`. Navigate to `<Yes>` and press `Enter`. You will now be informed that it has been enabled. Press `Enter` to return to the menu. Within the Configutsyion Tool menu simply press `Esc` to exit and return to the terminal.
+
+The default login credentials of the Raspberry Pi is:
+
+	Username: pi
+	Password: raspberry
+
+Using the default is a security issue as anyone who know of the common login of a Raspberry Pi can now access it through SHH. Therefore you most likely would like to change your password. You do this with:
+	
+	sudo -i
+
+This makes you the root. Meaning that you will no longer be pi@raspberrypi, but root@raspberrypi and you can now run commands without using the sudo prefix as you have root previledges. 
+
+Now you use the following command to say that you would like to change the password of the user pi: 
+
+	passwd pi
+
+After this you will be asked to enter a new UNIX password. Choose something that you can remember.
+
+To logout from root simply write:
+
+	exit	
+
+2) SHH into the system from your preferred computer
+
+## GPIO
+
+Today I tried to use the genenral purpose input/output for the Raspberry Pi. I did so my installing 

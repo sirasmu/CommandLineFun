@@ -58,7 +58,7 @@ Using the default is a security issue as anyone who know of the common login of 
 	
 	sudo -i
 
-This makes you the root. Meaning that you will no longer be pi@raspberrypi, but root@raspberrypi and you can now run commands without using the sudo prefix as you have root previledges. 
+This makes you the root. Meaning that you will no longer be pi@raspberrypi, but root@raspberrypi and you can now run commands without using the sudo prefix as you have root privileges. 
 
 Now you use the following command to say that you would like to change the password of the user pi: 
 

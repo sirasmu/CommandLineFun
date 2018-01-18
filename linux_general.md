@@ -24,3 +24,5 @@ I imagine it would be an interesting and special kind of depressing to compare m
 like ed/nano/vim/emacs/atom/vs code"
 
 https://danluu.com/
+
+https://projecteuler.net/archives

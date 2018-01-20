@@ -26,3 +26,5 @@ like ed/nano/vim/emacs/atom/vs code"
 https://danluu.com/
 
 https://projecteuler.net/archives
+
+https://www.shortcutfoo.com/

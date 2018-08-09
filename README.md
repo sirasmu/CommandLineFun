@@ -23,3 +23,8 @@ Since you are inside WSL navigate to your Windows files with: `/mnt/<drive>/`
 ```
 
 http://caiorss.github.io/Emacs-Elisp-Programming/Emacs_On_Windows.html
+
+
+make your own email???
+
+https://mailinabox.email/
